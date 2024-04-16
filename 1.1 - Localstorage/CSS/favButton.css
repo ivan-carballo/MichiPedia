@@ -1,0 +1,30 @@
+/*
+Aqui van los estilos relacionados con el boton de fav
+*/
+
+#center {
+    margin-top: 15px;
+    margin-left: -45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#addFav {
+    height: fit-content;
+    width: fit-content;
+    display: none;
+}
+
+.fav {
+    font-size: 12rem;
+    display: none;
+}
+
+#fav_no {
+    display: initial;
+}
+
+.fa-regular:hover {
+    color: #be0105;
+}
