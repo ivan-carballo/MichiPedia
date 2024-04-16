@@ -7,5 +7,5 @@ Tambien da la posibilidad de gestionar razas concretas como favoritas y tener un
 De forma adicional, en la pagina principal hay un generador automatico de imagenes y datos random sobre felinos cada 30 segundos.
 
 Hay dos versiones creadas:
-- 1.0 - API: Se usan multiples llamadas API para poder tener la informacion - /1.0 - API/index.html
+- 1.0 - API: Se usan multiples llamadas API para poder tener la informacion
 - 1.2 - Localstorage: Se hace una unica llamada inicial al cargar index.html y se guarda en localstorage y pasa a gestionarse desde ahi.
