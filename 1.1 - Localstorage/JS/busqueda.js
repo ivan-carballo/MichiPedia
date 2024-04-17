@@ -3,6 +3,10 @@ const apiUrl = 'https://api.api-ninjas.com/v1/cats';
 
 let listaGatos = [];
 
+// Esconder el rotulo del nombre de la raza hasta que sea necesario volver a desplegarlo
+let rotuloPrincipal_0 = document.getElementById('tituloRaza');
+rotuloPrincipal_0.style.display = 'none';
+
 // Crear funcion de llamada a la API pasando como argumento el numero de paginacion
 // Despues los datos se pasan a json y se saca unicamente los nombres de las razas de gato
 // Por ultimo se hace una llamada a la funcion desplegableFinal() donde se pasaran los datos al DOM

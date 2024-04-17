@@ -29,6 +29,14 @@ if (cargarPerfil === null) {
     cargarPerfil = '';
 }
 
+let namePermanente = localStorage.getItem('perfilFav');
+let rotuloPrincipal = document.getElementById('tituloRaza');
+if (namePermanente.length > 1) {
+    rotuloPrincipal.innerText = namePermanente
+    rotuloPrincipal.style.display = 'grid';
+}
+
+
 if (cargarPerfil.length > 1) {
         const optionInitial = document.getElementById('initial')
         optionInitial.setAttribute('disabled', 'yes');
@@ -90,6 +98,7 @@ const desplegableClick = addEventListener('click', (e) => {
 
     const desplegableSeleccion = document.getElementById('razas');
     if (desplegableSeleccion.value.length > 0) {
+
         localStorage.setItem('perfilFav', '');
         // funcion para llamar a la API con la raza concreta que se ha seleccionado
         getCat(desplegableSeleccion.value)
@@ -104,6 +113,9 @@ const desplegableClick = addEventListener('click', (e) => {
                 data = JSON.parse(data);
                 let imageAPI = document.getElementById('imageAPI');
                 imageAPI.innerHTML = `<img src="${data['image_link']}">`;
+
+                rotuloPrincipal.innerText = name;
+                rotuloPrincipal.style.display = 'grid';
 
                 namesAPI.forEach(nameUnitario => {
                     let API_Name = document.getElementById(nameUnitario);

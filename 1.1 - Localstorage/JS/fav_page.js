@@ -77,3 +77,9 @@ setTimeout(() => {
 
   }, "1000");
   
+
+// Hacer que al pulsar sobre el boton de atras para ir al index, se elimine el perfilFav de localStorage
+const botonAtras = document.getElementById('back');
+botonAtras.addEventListener('click', (e) => {
+    localStorage.setItem('perfilFav', '');
+})
