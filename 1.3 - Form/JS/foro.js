@@ -1,0 +1,3 @@
+/*
+Aqui iran todas las funciones relacionadas con el foro de discusion
+*/

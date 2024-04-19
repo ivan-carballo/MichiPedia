@@ -8,7 +8,7 @@ favsArray = favsArray.split(',');
 favsArray.sort();
 
 
-// Si no se tiene ningun favorito, va a aparecer en pantalla un mensaje avisando de elos
+// Si no se tiene ningun favorito, va a aparecer en pantalla un mensaje avisando de ello
 // Para evitar pensar que es por algun error de carga que no aparezcan cards de las razas
 confirmarFavs();
 function confirmarFavs() {
@@ -69,7 +69,7 @@ setTimeout(() => {
 
             perfilAbrir();
             function perfilAbrir() {
-                window.open('./index.html','_self');
+                window.open('../index.html','_self');
             }
 
         })

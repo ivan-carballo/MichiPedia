@@ -21,14 +21,14 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
  
-     <link rel="stylesheet" href="./CSS/comun.css">
-     <link rel="stylesheet" href="./CSS/favs.css">
-     <link rel="stylesheet" href="./CSS/form.css">
+     <link rel="stylesheet" href="../CSS/comun.css">
+     <link rel="stylesheet" href="../CSS/favs.css">
+     <link rel="stylesheet" href="../CSS/form.css">
  
  </head>
 <body>
     <section id="titulo">
-        <form id="back"><a href="./index.html">Home</a></form>
+        <form id="back"><a href="../index.html">Home</a></form>
         <h1>Michi Pedia</h1>
         <h3>Contacto</h3>
     </section>
@@ -47,7 +47,7 @@
             <input type="email" id="inputEmail" name="inputEmail">
             
             <label for="inputMessage">Mensaje</label>
-            <textarea name="" id="" cols="30" rows="15" id="inputMessage" name="inputMessage"></textarea>
+            <textarea cols="30" rows="15" id="inputMessage" name="inputMessage"></textarea>
 
             <div id="buttons">
                 <button id="buttonSend" name="buttonSend" class="button">Enviar</button>
@@ -59,7 +59,10 @@
             <p class="texto_form">Este es tu espacio privado para ponerte en contacto con nosotros</p>
             <p class="texto_form">Respondemos dudas, aceptamos sugerencias y opiniones, damos mas informacion sobre razas y sus origenes, etc</p>
             <p class="texto_form">O si simplemente quieres ofrecer tu adoracion por los michis, desde aqui te escuchamos.</p>
-            <p class="texto_form">Y si no te gustan los michis puedes darme tu direccion... para ir a tu casa y que me lo digas a la cara.</p>
+            <div id="grupo_amenaza">
+                <p class="texto_amenaza" id="pre_amenaza">Y si no te gustan los michis dame tu direccion... </p>
+                <p class="texto_amenaza" id="amenaza">Ire a tu casa y me lo dices a la cara</p>
+            </div>
         </section>
     </div>
 
@@ -68,7 +71,7 @@
 
 
 
-
+<script src="../JS/form.js"></script>
 
 </body>
 </html>

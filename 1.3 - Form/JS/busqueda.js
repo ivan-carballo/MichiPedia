@@ -1,3 +1,5 @@
+//import { apiKey } from "./API.js";
+
 const apiKey = 'v8CnkGr1j1Bmjv8XXus7TA==3CMJqnIw02JUh5QN';
 const apiUrl = 'https://api.api-ninjas.com/v1/cats';
 

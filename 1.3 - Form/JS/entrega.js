@@ -90,7 +90,7 @@ if (cargarPerfil.length > 1) {
 
 
 
-// Uso un escuchador de eventos para saber cuando se selecciona una raza y su nombre
+// Uso un escuchador de eventos (No es GPT, lo juro >.<) para saber cuando se selecciona una raza y su nombre
 const desplegableClick = addEventListener('click', (e) => {
 
     const optionInitial = document.getElementById('initial')

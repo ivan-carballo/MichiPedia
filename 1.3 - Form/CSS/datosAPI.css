@@ -1,10 +1,22 @@
-#tituloRaza {
+#rotuloRaza {
     width: 63%;
+    display: flex;
+    justify-content: center;
+}
+
+#tituloRaza {
     text-align: center;
     margin: 0;
-    font-size: 2rem;
+    font-size: 5rem;
     font-style: oblique;
     display: none;
+    letter-spacing: 3px;
+    width: fit-content;
+    padding: 2px 20px;
+    border-radius: 15px;
+    background-color: #00000088;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 #cuerpo {
