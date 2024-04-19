@@ -1,0 +1,72 @@
+#tituloRaza {
+    width: 63%;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-style: oblique;
+    display: none;
+}
+
+#cuerpo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#inputs {
+    padding: 0 30px;
+}
+
+#textAPI {
+    margin-top: 15px;
+    margin-left: -25px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.divAPI {
+    font-size: 1.5em;
+    background-color: #00000088;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin-bottom: 15px;
+    height: 250px;
+}
+
+.rotulo {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.datosAPI {
+    font-size: 2.8rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.datosAPI {
+    display: grid;
+    justify-items: center;
+}
+
+.imgBarras {
+    width: 70%;
+    margin: 0;
+}
+
+#photoAPI {
+    margin-top: 15px;
+}
+
+#photoAPI > div > img {
+    border-radius: 25px;
+    margin-left: -45px;
+    width: 105%;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/278c044f58.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/comun.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/datosAPI.css">
+    <link rel="stylesheet" href="./CSS/favButton.css">
+
+</head>
+<body>
+    <div id="header">
+
+        <section id="titulo">
+            <h1>Michi Pedia</h1>
+            <p id="p_principal" class="p_static">Si te gustan los michis, este es tu lugar</p>
+            <p class="p_static">Si no te gustan ... que dios te perdone, porque yo no lo hare</p>
+            <p class="p_static">Ponemos a su disposicion los datos de cada raza de michi que existe</p>
+
+            <section id="nav">
+                <div id="divDesplegable">
+                    <select name="razas" id="razas">
+                        <option id="initial" value="">Seleccione raza</option>
+                    </select>
+                </div>
+
+                <div id="favs">
+                    <div id="fav">
+                        <a href="./favs.html">Lista de favoritos</a>
+                    </div>
+                </div>
+
+                <div id="forms">
+                    <div id="form">
+                        <a href="./form.html">Contacto</a>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+        <section id="randomCat">
+            <div id="catFact"></div>
+            <div id="catPhoto"></div>
+        </section>
+
+    </div>
+
+
+    <div id="rotuloRaza">
+        <h4 id="tituloRaza">
+            <!-- Aqui va el nombre de la raza a modo de titulo -->
+        </h4>
+    </div>
+    <div id="cuerpo">
+
+        <section id="inputs">
+            <article id="textAPI" hidden>
+                <div class="divAPI">
+                    <p class="rotulo">Origen:</p>
+                    <p class="datosAPI" id="origin"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Trato con niños:</p>
+                    <p class="datosAPI" id="children_friendly"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Trato con familia:</p>
+                    <p class="datosAPI" id="family_friendly"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Trato con mascotas:</p>
+                    <p class="datosAPI" id="other_pets_friendly"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Trato con extraños:</p>
+                    <p class="datosAPI" id="stranger_friendly"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Salud general:</p>
+                    <p class="datosAPI" id="general_health"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Pulcritud:</p>
+                    <p class="datosAPI" id="grooming"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Inteligencia:</p>
+                    <p class="datosAPI" id="intelligence"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Maullador:</p>
+                    <p class="datosAPI" id="meowing"></p>
+                </div>            
+                <div class="divAPI">
+                    <p class="rotulo">Tamaño:</p>
+                    <p class="datosAPI" id="length"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Alegre:</p>
+                    <p class="datosAPI" id="playfulness"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Esperanza de vida:</p>
+                    <p class="datosAPI" id="max_life_expectancy"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Cantidad de muda:</p>
+                    <p class="datosAPI" id="shedding"></p>
+                </div>
+                <div class="divAPI">
+                    <p class="rotulo">Peso:</p>
+                    <p class="datosAPI" id="max_weight"></p>
+                </div>
+            </article>
+        </section>
+
+
+        <section id="photoAPI">
+            <div id="imageAPI"></div>
+            <div id="center">
+                <div id="addFav">
+                    <i id="fav_no" class="fa-regular fa-heart fav"></i>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+
+
+    
+    <script src="./JS/gatos.js"></script>
+    <script src="./JS/busqueda.js"></script>
+    <script src="./JS/entrega.js"></script>
+    <script src="./JS/fav_button.js"></script>
+    
+    
+</body>
+</html>

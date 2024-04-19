@@ -1,0 +1,118 @@
+/*
+Aqui van los estilos para la pagina de contacto
+Pero no de la cabecera, solo del cuerpo como tal
+*/
+
+#cuerpo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 25px;
+}
+
+@media (max-width: 1000px) {
+    #cuerpo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    #titulo {
+        display: flex;
+        flex-direction: column-reverse;
+        border: solid black 2px;
+    }
+
+    #back {
+        margin: 0;
+        padding: 0;
+        align-self: center;
+    }
+}
+
+
+/* Estos son los estilos del formulario */
+#forms {
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+@media (max-width: 1000px) {
+    #forms {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+#rotulo_form {
+    font-size: 2rem;
+}
+
+input, textarea {
+    border-radius: 25px;
+    padding: 3px 15px;
+    margin-bottom: 15px;
+    width: 35%;
+}
+
+textarea {
+    width: 85%;
+}
+
+label {
+    margin-left: 15px;
+    margin-bottom: 3px;
+    font-style: oblique;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: fit-content;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+#buttons {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin: 0 15px;
+    background-color: black;
+    color: white;
+}
+
+#buttonSend:hover {
+    background-color: green;
+    border: 3px solid yellowgreen;
+}
+
+#buttonDelete:hover {
+    background-color: red;
+    border: 3px solid maroon;
+}
+
+/* Estos son los estilos del texto */
+#texto {
+    width: 85%;
+    justify-self: left;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 0 15px;
+    height: fit-content;
+}
+
+.texto_form {
+    font-size: 1.5rem;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    padding: 5px 20px;
+    text-align: justify;
+}

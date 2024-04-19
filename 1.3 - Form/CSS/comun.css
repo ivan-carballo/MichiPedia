@@ -1,0 +1,27 @@
+/*
+En este archivo se añaden los estilos comunes entre los doferentes HTMLs
+*/
+
+@font-face {
+    font-family: Catpaw;
+    src: local("Catpaw"),
+    local("Catpaw"),
+    url(../assets/font/Cat\ paw.ttf);
+    font-weight: bold;
+  }
+
+body {
+    background-image: url(../assets/img/fondo_80.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Catpaw, serif;
+    letter-spacing: 10px;
+    font-size: 7rem;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: wavy underline black;
+}
