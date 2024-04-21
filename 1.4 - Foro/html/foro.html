@@ -1,0 +1,77 @@
+<!-- 
+    Aqui se cargara un foro de discusion
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=, initial-scale=1.0">
+     <title>Contacto</title>
+ 
+     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+     <script src="https://kit.fontawesome.com/278c044f58.js" crossorigin="anonymous"></script>
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="../CSS/favs.css">
+     <link rel="stylesheet" href="../CSS/foro.css">
+     <link rel="stylesheet" href="../CSS/header.css">
+ 
+ </head>
+<body>
+    <section id="titulo">
+        <section id="buttonForo">
+            <form id="back"><a href="../index.html">Home</a></form>
+            <form id="sessionClose"><a href="./login.html">Cerrar sesion</a></form>
+        </section>
+        <h1>Michi Pedia</h1>
+        <h3>Foro</h3>
+    </section>
+
+    <section id="foro">
+        <section id="menus">
+            <p id="newTopic" class="botones_tema">Nuevo tema</p>
+            <p id="delTopic" class="botones_tema">Eliminar tema</p>
+
+            <div id="crearTopic">
+                <input type="text" id="nameTopic">
+                <p id="acceptTopic">Crear</p>
+                <select id="deleteTopic"></select>
+                <p id="acceptDelete">Eliminar</p>
+            </div>
+
+            <div id="topics">
+                <!-- barra de menus y temas -->
+            </div>
+        </section>
+
+        <section id="posts">
+            <section id="newPost">
+                <!-- Aqui se escriben nuevos posts -->
+            </section>
+            <section id="oldPost">
+                <!-- Aqui se pueden leer los posts ya escritos -->
+            </section>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+<script src="../JS/foro.js"></script>
+<script src="../JS/delTopic.js"></script>
+
+</body>
+</html>

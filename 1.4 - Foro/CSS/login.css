@@ -1,0 +1,58 @@
+/*
+Aqui van los estilos del inicio de sesion
+*/
+
+#cuerpo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;;
+}
+
+#formSession, #newUser {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.326);
+}
+
+h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#sessionName, #new_sessionName, #new_sessionPass {
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 2px 15px;
+    width: 20rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+
+label {
+    font-size: 1.5rem;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 2px 12px;
+    width: fit-content;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.264);
+    font-weight: 600;
+}
+
+p:hover {
+    background-color: green;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
