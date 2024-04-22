@@ -4,6 +4,10 @@ Web que recoge de *https://api-ninjas.com/api/cats* un listado de las razas de g
 
 Tambien da la posibilidad de gestionar razas concretas como favoritas y tener un listado en formato card mas sencillo de usar.
 
+Cuenta con un foro de discusión para usuarios registrados, asi como una sección de inicio de usuario y creación de usuarios nuevos.
+
+También hay un formulario de contacto para poder enviar un mensaje al webmaster.
+
 De forma adicional, en la pagina principal hay un generador automatico de imagenes y datos random sobre felinos cada 30 segundos.
 
 Hay varias versiones creadas:
