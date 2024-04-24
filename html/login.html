@@ -1,0 +1,76 @@
+<!-- 
+    Aqui se cargara el login de usuario
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=, initial-scale=1.0">
+     <title>Contacto</title>
+ 
+     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+     <script src="https://kit.fontawesome.com/278c044f58.js" crossorigin="anonymous"></script>
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="../CSS/favs.css">
+     <link rel="stylesheet" href="../CSS/login.css">
+     <link rel="stylesheet" href="../CSS/header.css">
+ 
+ </head>
+<body>
+    <section id="titulo">
+        <form id="back"><a href="../index.html">Home</a></form>
+        <h1>Michi Pedia</h1>
+        <h3>Inicio de sesion</h3>
+    </section>
+
+    <section id="cuerpo">
+        <section id="formSession">
+            <h2 id="rotulo_inicioSession">Inicio de sesion</h2>
+
+            <label for="sessionName">Nombre</label>
+            <input type="text" name="sessionName" id="sessionName">
+
+            <label for="sessionPass">Password</label>
+            <input type="password" name="sessionPass" id="sessionPass">
+
+            <p id="button_login">Entrar</p>
+            <p id="button_newUser">Nuevo usuario</p>
+        </section>
+
+        <section id="newUser">
+            <h2 id="rotulo_newUser">Nuevo usuario</h2>
+
+            <label for="new_sessionName">Nombre</label>
+            <input type="text" name="new_sessionName" id="new_sessionName">
+
+            <label for="new_sessionPass">Password</label>
+            <input type="password" name="new_sessionPass" id="new_sessionPass">
+
+            <label for="new_sessionPass_repeat">Repita Password</label>
+            <input type="password" name="new_sessionPass_repeat" id="new_sessionPass_repeat">
+
+            <p id="button_create">Crear usuario</p>
+            <p id="button_enter">Login</p>
+        </section>
+    </section>
+
+
+
+
+
+<script type="module" src="../JS/login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+
+
+</body>
+</html>

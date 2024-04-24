@@ -2,7 +2,7 @@
 
 Web que recoge de *https://api-ninjas.com/api/cats* un listado de las razas de gato existentes y proporciona varios datos basicos incluyendo una imagen de dicha raza.
 
-Tambien da la posibilidad de gestionar razas concretas como favoritas y tener un listado en formato card mas sencillo de usar.
+Admite la gestion razas concretas como favoritas y tener un listado en formato card mas sencillo de usar.
 
 Cuenta con un foro de discusión para usuarios registrados, asi como una sección de inicio de usuario y creación de usuarios nuevos.
 
