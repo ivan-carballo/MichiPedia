@@ -10,8 +10,6 @@ También hay un formulario de contacto para poder enviar un mensaje al webmaster
 
 De forma adicional, en la pagina principal hay un generador automatico de imagenes y datos random sobre felinos cada 30 segundos.
 
-Hay varias versiones creadas:
-- 1.0 - API: Se usan multiples llamadas API para poder tener la informacion
-- 1.2 - Localstorage: Se hace una unica llamada inicial al cargar index.html y se guarda en localstorage y pasa a gestionarse desde ahi.
-- 1.3 - Formulario: Se añade una pagina de contacto para que los usuarios puedan mandar mensajes al personal de la web.
-- 1.4 - Foro de discusion con login: Se añade un foro de discusion para que los usuarios puedan mandarse preguntas, dudas o mensajes relacionados con los michis, para acceder se necesita crear un usuario y password
+En la web existen 5 APIs diferentes, la principal para recoger todas las razas de gatos, una que proporciona una imagen aleatoria relacionada con gatos, una que da un dato aleatorio relacionado con gatos, una de traduccion para pasar el dato de ingles a español y otra de encriptacion de textos que uso para el login y creacion de usuarios.
+
+De todas ellas, la unica que necesita una ApiKey es la principal para tener todas las razas de gatos, esta ApiKey se consigue haciendose un usuario en la web "https://api-ninjas.com/api/cats" y tiene un plan gratuito que ofrece 10.000 llamadas al mes. Esta ApiKey tiene que guardarse en ./JS/API.js. La exportancion e importacion necesaria ya estan creadas.
