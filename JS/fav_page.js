@@ -29,17 +29,13 @@ function confirmarFavs() {
 
 // Crear un bucle de busqueda en la API de las razas
 for (unidad of favsArray) {
-    //const apiKey = 'v8CnkGr1j1Bmjv8XXus7TA==3CMJqnIw02JUh5QN';
     const apiUrl = 'https://api.api-ninjas.com/v1/cats';
 
     getCats(unidad)
     async function getCats(unidad) {
-        //const url = new URL(apiUrl);
-        //url.searchParams.append('name', unidad)
-        //url.searchParams.append('X-Api-Key', apiKey);
+
         try {
-           //const response = await fetch(url.toString());
-            //let data = await response.json();
+
             let data = localStorage.getItem(unidad);
             data = JSON.parse(data);
             
