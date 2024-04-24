@@ -46,12 +46,7 @@ if (cargarPerfil.length > 1) {
             // funcion para llamar a la API con la raza concreta que se ha seleccionado
             getCat(cargarPerfil)
             async function getCat(name) {
-                //const url = new URL(apiUrl);
-                //url.searchParams.append("name", name);
-                //url.searchParams.append('X-Api-Key', apiKey);
                 try {
-                    //const response = await fetch(url.toString());
-                    //let data = await response.json();
                     let data = localStorage.getItem(name);
                     data = JSON.parse(data);
                     let imageAPI = document.getElementById('imageAPI');
@@ -103,12 +98,7 @@ const desplegableClick = addEventListener('click', (e) => {
         // funcion para llamar a la API con la raza concreta que se ha seleccionado
         getCat(desplegableSeleccion.value)
         async function getCat(name) {
-            //const url = new URL(apiUrl);
-            //url.searchParams.append("name", name);
-            //url.searchParams.append('X-Api-Key', apiKey);
             try {
-                //const response = await fetch(url.toString());
-                //let data = await response.json();
                 let data = localStorage.getItem(name);
                 data = JSON.parse(data);
                 let imageAPI = document.getElementById('imageAPI');
