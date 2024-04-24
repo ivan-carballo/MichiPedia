@@ -4,7 +4,7 @@ Web que recoge de *https://api-ninjas.com/api/cats* un listado de las razas de g
 
 Admite la gestion razas concretas como favoritas y tener un listado en formato card mas sencillo de usar.
 
-Cuenta con un foro de discusión para usuarios registrados, asi como una sección de inicio de usuario y creación de usuarios nuevos.
+Cuenta con un foro de discusión para usuarios registrados, asi como una sección de inicio de usuario y creación de usuarios nuevos que cuenta con encriptacion sha256 para los passwords.
 
 También hay un formulario de contacto para poder enviar un mensaje al webmaster.
 
