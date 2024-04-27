@@ -8,6 +8,8 @@ Cuenta con un foro de discusión para usuarios registrados, asi como una secció
 
 También hay un formulario de contacto para poder enviar un mensaje al webmaster.
 
+A modo de entretenimiento hay incluido un pequeño test de 8 preguntas en el que calcula que raza de gato es la mas cercana a ti, dando una pequeña description y una imagen
+
 De forma adicional, en la pagina principal hay un generador automatico de imagenes y datos random sobre felinos cada 30 segundos.
 
 En la web existen 5 APIs diferentes, la principal para recoger todas las razas de gatos, una que proporciona una imagen aleatoria relacionada con gatos, una que da un dato aleatorio relacionado con gatos, una de traduccion para pasar el dato de ingles a español y otra de encriptacion de textos que uso para el login y creacion de usuarios.
