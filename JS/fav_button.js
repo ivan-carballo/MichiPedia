@@ -107,7 +107,7 @@ favNO.addEventListener('click', (e) => {
         if (confirm.length > 1) {
             setTimeout(() => {
                 localStorage.setItem('perfilFav', '');
-                window.open('./favs.html', '_self');
+                window.open('./html/favs.html', '_self');
             }, "200");
         }
 

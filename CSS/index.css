@@ -35,18 +35,18 @@ Este CSS se ocupa unicamente del index estatico, es decir, no emplea estilos par
 }
 
 #gridButtons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-left: 15px;
 }
 
 #gridButtons > div {
     display: flex;
     justify-content: center;
+    margin: 10px 0
 }
 
-#fav, #form, #foro {
+#fav, #form, #foro, #quid {
     display: flex;
     align-items: center;
     height: 100%;
@@ -72,6 +72,11 @@ a {
 }
 
 #foros div:hover, a:hover {
+    background-color: white;
+    color: black;
+}
+
+#quids div:hover, a:hover {
     background-color: white;
     color: black;
 }

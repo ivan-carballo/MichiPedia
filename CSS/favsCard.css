@@ -39,13 +39,14 @@
 .image {
     width: 450px;
     border-radius: 25px;
-    margin: -45px 0;
+    margin-top: -20px;
+    margin-bottom: -25px;
 }
 
 .delete {
     border: solid 2px black;
     padding: 10px 0;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     width: 150px;
     align-self: center;
     justify-self: center;

@@ -8,16 +8,27 @@ De esta forma se evita que el rotulo se quede de forma permanente con la raza de
 const botonFav = document.getElementById('fav');
 botonFav.addEventListener('click', (e) => {
     localStorage.setItem('perfilFav', '');
+    localStorage.setItem('quiz', '');
 })
 
 // Boton de ir a contacto
 const botonForm = document.getElementById('form');
 botonForm.addEventListener('click', (e) => {
     localStorage.setItem('perfilFav', '');
+    localStorage.setItem('quiz', '');
 })
 
 // Boton de ir a foro
 const botonForo = document.getElementById('foro');
 botonForo.addEventListener('click', (e) => {
     localStorage.setItem('perfilFav', '');
+    localStorage.setItem('quiz', '');
+})
+
+
+// Boton de ir a quiz
+const botonquiz = document.getElementById('quiz');
+botonForo.addEventListener('click', (e) => {
+    localStorage.setItem('perfilFav', '');
+    localStorage.setItem('quiz', '');
 })

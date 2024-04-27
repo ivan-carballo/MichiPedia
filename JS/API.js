@@ -1,3 +1,4 @@
-const apiKey = 'Ir a Readme para saber la web desde la que conseguir esta apikey';
+const apiKey = 'v8CnkGr1j1Bmjv8XXus7TA==3CMJqnIw02JUh5QN';
+
 
 export { apiKey };

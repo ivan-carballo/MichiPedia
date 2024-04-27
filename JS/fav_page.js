@@ -33,9 +33,7 @@ for (unidad of favsArray) {
 
     getCats(unidad)
     async function getCats(unidad) {
-
         try {
-
             let data = localStorage.getItem(unidad);
             data = JSON.parse(data);
             
