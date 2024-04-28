@@ -8,7 +8,7 @@ Cuenta con un foro de discusión para usuarios registrados, asi como una secció
 
 También hay un formulario de contacto para poder enviar un mensaje al webmaster.
 
-A modo de entretenimiento hay incluido un pequeño test de 8 preguntas en el que calcula que raza de gato es la mas cercana a ti, dando una pequeña description y una imagen
+A modo de entretenimiento hay incluido un pequeño test de 8 preguntas en el que calcula que raza de gato es la mas cercana a ti, dando una pequeña descripcion y una imagen
 
 De forma adicional, en la pagina principal hay un generador automatico de imagenes y datos random sobre felinos cada 30 segundos.
 
